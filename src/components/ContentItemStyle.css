@@ -1,0 +1,42 @@
+.content-item {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+}
+
+.content-item-title-row {
+  max-width: 480pt;
+}
+
+.content-item-title {
+  font-size: 16pt;
+  max-width: 480pt;
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+}
+
+.content-item-link {
+  background: rgba(0, 0, 0, 0);
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 4pt;
+  padding: 2pt;
+}
+
+.content-item-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.content-item-link-icon {
+  width: 18pt;
+}
+
+.content-item-media {
+  width: 100%;
+}
+
+.content-item-description {
+  font-size: 12pt;
+  max-width: 480pt;
+}

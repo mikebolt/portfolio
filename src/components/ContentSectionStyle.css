@@ -1,0 +1,22 @@
+.content-section {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.content-section-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-section-title-text {
+  font-size: 20pt;
+  color: #000000;
+  margin: 0;
+}
+
+.content-section-ornament {
+  display: inline-block;
+  scale: 0.5;
+}

@@ -1,0 +1,29 @@
+.social-link-root {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 2pt 4pt;
+  border-radius: 4pt;
+  margin: 0 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.social-link-root:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social-link-icon-container,
+.social-link-label-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.social-link-icon {
+  margin-right: 0.5rem;
+}
+
+.social-link-label {
+  display: inline-block;
+  transform: translate(0, -2pt);
+}

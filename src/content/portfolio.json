@@ -1,0 +1,105 @@
+{
+  "title": "Michael Casebolt's Portfolio",
+  "socialLinks": [
+    {
+      "icon": "svg/github-aligned.svg",
+      "label": "GitHub",
+      "url": "https://github.com/mikebolt"
+    },
+    {
+      "icon": "svg/linkedin-aligned.svg",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/michael-casebolt-a1882211a/"
+    },
+    {
+      "icon": "svg/envelope-regular-aligned.svg",
+      "label": "mikebolt@gmail.com",
+      "url": "mailto:mikebolt@gmail.com"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Work Projects",
+      "items": [
+        {
+          "title": "Mentor by eDriving",
+          "url": "https://www.edriving.com/mentor/",
+          "media": "banners/mentor_banner.png",
+          "mediaAlt": "Mentor website banner",
+          "description": "At eDriving, I helped create Mentor, a smartphone app that collects data while driving and analyzes it to detect bad driving and help the driver improve. I wrote custom analytics algorithms in Java based on academic research, and fine-tuned the data collection algorithms on iOS and Android. I also wrote data collection firmware for an Arduino OBDII device using the C programming language."
+        },
+        {
+          "title": "WebVR Platform",
+          "url": "https://a.flow.gl/",
+          "media": "banners/flow_immersive_banner.png",
+          "mediaAlt": "Flow app banner",
+          "description": "At Flow.gl I worked on a 3D data visualization software platform, a create-your-own data visualization web app built with Vue.js and Node.js, and custom immersive experiences for Fortune 500 clients."
+        },
+        {
+          "title": "Internal Software at Google",
+          "media": "banners/moffett_place_banner.png",
+          "mediaAlt": "photo of Moffett Place campus",
+          "description": "As a full stack engineer at Google, I worked on a bill of materials tracking system and network inventory planning software. I worked with TypeScript, Angular.js, and Golang."
+        },
+        {
+          "title": "Social Media AI SaaS",
+          "url": "https://www.blackbird.ai/",
+          "media": "banners/blackbird_banner.png",
+          "mediaAlt": "Blackbird.ai app banner",
+          "description": "I created a Node.js backend API which took data from the AI pipeline and used it to respond to user queries, with around 10x performance improvement over the company's original prototype. I also added multiple features to the React.js frontend and served as the administrator for the CMS."
+        }
+      ]
+    },
+    {
+      "title": "Side Projects",
+      "items": [
+        {
+          "title": "Recobot",
+          "description": "(2017 - 2019) A recommendation algorithm for anything. Used Node.js and MongoDB on Google Cloud VPS."
+        },
+        {
+          "title": "ThreeTwist",
+          "url": "https://github.com/mikebolt/ThreeTwist",
+          "media": "banners/threetwist_banner.png",
+          "mediaAlt": "virtual 4x4x4 Rubik's cube",
+          "description": "A project I worked on in college, ThreeTwist is a rewrite of cuber.js, which powered Google's Rubik's cube doodle in honor of Ernő Rubik. ThreeTwist adds puzzle cubes of any order, such as 5x5x5. It also fixes some bugs and adds new features, like an API for visualizing \"algorithms\"."
+        },
+        {
+          "title": "Tween.js",
+          "url": "https://github.com/tweenjs/tween.js",
+          "description": "I was a maintainer for the open source project Tween.js for several years. It is a lightweight JavaScript animation library."
+        },
+        {
+          "title": "Solidity Smart Contracts",
+          "url": "https://github.com/mikebolt/smartcontracts",
+          "description": "I wrote some open source smart contracts with Solidity. I am very interested in exploring the novel possibilities of smart contracts."
+        },
+        {
+          "title": "naturalgfx.com",
+          "url": "https://www.naturalgfx.com/",
+          "description": "In 2017, I created the business website for Natural Graphics. The client's original website was created in the 2000's with Dreamweaver. I modernized it with a responsive design, added a custom image carousel, and improved the organization of the content."
+        },
+        {
+          "title": "Portfolio",
+          "url": "https://github.com/mikebolt/portfolio",
+          "description": "I made this portfolio page with React.js. It's open source."
+        }
+      ]
+    },
+    {
+      "title": "Writing",
+      "items": [
+        {
+          "title": "Fooling ChatGPT",
+          "url": "https://medium.com/@mikebolt/fooling-chatgpt-294fe6dffb79",
+          "description": "a selection of problems that ChatGPT can't solve, and what it all means"
+        },
+        {
+          "title": "A Beginner's Guide to Vim",
+          "url": "https://medium.com/@mikebolt/a-beginners-guide-to-vim-cb5375820c16",
+          "description": "everything you need to know to use Vim, explained step-by-step"
+        }
+      ]
+    }
+  ]
+}
